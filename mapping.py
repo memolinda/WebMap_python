@@ -8,6 +8,7 @@ import pandas as pd
 data = pd.read_csv("vulcanoes.txt")
 lat = list(data["LAT"])
 lon = list(data["LON"])
+elev = list(data["ELEV"])
 
  #### Create a base map object with folium centered to the latitude and logitide
  #### with initial zoom of 6 and a layer on top (Stamen Terrain layer)
@@ -23,8 +24,8 @@ fg = folium.FeatureGroup(name="My Map") # features creation
 #                 icon=folium.Icon(color='green')))
 
 ### Extract latitude and logitude from the csv
-for lt, ln in zip(lat,lon):
-    fg.add_child(folium.Marker(location=[lt,ln], popup="Home",
+for lt, ln, el in zip(lat,lon,elev):
+    fg.add_child(folium.Marker(location=[lt,ln], popup=str(el)+ " m",
                     icon=folium.Icon(color='green')))
 
 
