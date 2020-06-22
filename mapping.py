@@ -9,6 +9,14 @@ data = pd.read_csv("vulcanoes.txt")
 lat = list(data["LAT"])
 lon = list(data["LON"])
 elev = list(data["ELEV"])
+name = list(data["NAME"])
+
+###Link on the popup windows
+html = """
+Volcano name:<br>
+<a href="https://www.google.com/search?q=%%22%s%%22" target="_blank">%s</a><br>
+Height: %s m
+"""
 
  #### Create a base map object with folium centered to the latitude and logitide
  #### with initial zoom of 6 and a layer on top (Stamen Terrain layer)
@@ -24,8 +32,9 @@ fg = folium.FeatureGroup(name="My Map") # features creation
 #                 icon=folium.Icon(color='green')))
 
 ### Extract latitude and logitude from the csv
-for lt, ln, el in zip(lat,lon,elev):
-    fg.add_child(folium.Marker(location=[lt,ln], popup=str(el)+ " m",
+for lt, ln, el, name in zip(lat,lon,elev, name):
+    iframe = folium.IFrame(html=html % (name, name, el), width=200, height=100) #add the elevation and the link
+    fg.add_child(folium.Marker(location=[lt,ln], popup=folium.Popup(iframe),
                     icon=folium.Icon(color='green')))
 
 
