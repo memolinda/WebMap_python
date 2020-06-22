@@ -18,7 +18,7 @@ Volcano name:<br>
 Height: %s m
 """
 
-#### Color markers depending of the elevation
+#### Color of markers depending of the elevation
 def color_icons(elev):
     if elev < 1000:
         return 'green'
@@ -43,8 +43,8 @@ fg = folium.FeatureGroup(name="My Map") # features creation
 ### Extract latitude and logitude from the csv
 for lt, ln, el, name in zip(lat, lon, elev, name):
     iframe = folium.IFrame(html=html % (name, name, el), width=200, height=100) #add the elevation and the link
-    fg.add_child(folium.Marker(location=[lt,ln], popup=folium.Popup(iframe),
-                    icon=folium.Icon(color=color_icons(el))))
+    fg.add_child(folium.CircleMarker(location=[lt,ln], radius = 5, popup=folium.Popup(iframe),
+                    fill_color=color_icons(el), color='grey', fill_opacity=0.7))
 
 
 map.add_child(fg)
