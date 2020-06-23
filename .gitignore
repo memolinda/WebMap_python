@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Files
+*.numbers
+Home.csv
+Life.csv
+Work.csv
