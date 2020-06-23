@@ -33,7 +33,7 @@ map = folium.Map(location=[45, -100],
                 zoom_start=6, tiles = "Stamen Terrain")
 
 #### Add a child to the map with markers
-fg = folium.FeatureGroup(name="My Map") # features creation
+fg_v = folium.FeatureGroup(name="Vulcanoes") # features creation
 
 ### multiple markers
 # for coordinates in [[59.1, 18.01], [58.8, 17.5]]:
@@ -43,14 +43,21 @@ fg = folium.FeatureGroup(name="My Map") # features creation
 ### Add layer with latitude and logitude from the csv
 for lt, ln, el, name in zip(lat, lon, elev, name):
     iframe = folium.IFrame(html=html % (name, name, el), width=200, height=100) #add the elevation and the link
-    fg.add_child(folium.CircleMarker(location=[lt,ln], radius = 5, popup=folium.Popup(iframe),
+    fg_v.add_child(folium.CircleMarker(location=[lt,ln], radius = 5, popup=folium.Popup(iframe),
                     fill_color=color_icons(el), color='grey', fill_opacity=0.7))
 
+fg_p = folium.FeatureGroup(name="Population")
 #### Add a layer with population for each country from a world.json file
-fg.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='utf-8-sig').read(),
+fg_p.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='utf-8-sig').read(),
             style_function=lambda x: {'fillColor':'green' if x ['properties']['POP2005'] < 10000000
             else 'orange' if 10000000 <= x['properties']['POP2005'] <20000000 else 'red'}))
 
-map.add_child(fg)
+
+map.add_child(fg_v)
+map.add_child(fg_p)
+
+### Layer control of the layers in the map
+map.add_child(folium.LayerControl())
+
  #### Save the map in an htlm file to load it with the browser
 map.save("Map1.html")
