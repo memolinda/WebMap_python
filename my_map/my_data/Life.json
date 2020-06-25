@@ -1,0 +1,6 @@
+{
+   "City":["Paris","London","Munich","Tenerife","Gothenburg","Rome","Florence","Amsterdam","Madrid"],
+   "Country":["France","UK","Germany","Spain","Sweden","Italy","Italy","Netherland","Spain"],
+   "Lat":[48.855386,51.514084,48.12146,28.419782,57.727161,41.892184,43.781842,52.378669,40.419132],
+   "Lon":[2.294868,-0.168228,11.581661,-16.297321,11.977329,12.496172,11.254013,4.896064,-3.708594]
+}

@@ -1,0 +1,8 @@
+{
+   "City":["Belgrade","Toledo","Debrecen","Le Havre","Frankfurt","Stockholm","Prague","Cairns","Dinard","Aarhus","Melbourne"],
+   "Country":["Serbia","Spain","Hungary","France","Germany","Sweden","Czech Republic","Australia","France","Denmark","Australia"],
+   "Description":["Conference","Conference","Conference","Conference","Conference","Conference","Conference","Conference","Conference","Scientific Mission","Scientific Mission"],
+   "Site":["https://xlic.qui.uam.es/?p=1982","http://www.icpeac2015.com/","https://xlic.qui.uam.es/?p=2140","https://imampc2016.sciencesconf.org/","https://xlic.qui.uam.es/?ai1ec_event=ecamp12","https://xlic.qui.uam.es/?ai1ec_event=2nd-xlic-wg2-meeting-epolm-2","https://xlic.qui.uam.es/?ai1ec_event=4th-xlic-general-meeting","http://icpeac30.edu.au/","https://molec2018.sciencesconf.org/","https://phys.au.dk/en/","https://chemistry.unimelb.edu.au/#news"],
+   "Lat":[44.819774,39.855884,47.520714,49.490458,50.127375,59.361352,50.089195,-16.914034,48.637596,56.160328,-37.821667],
+   "Lon":[20.437641,-4.022776,21.627223,0.102345,8.666776,18.058814,14.424425,145.771876,-2.053958,10.214933,144.905198]
+}
