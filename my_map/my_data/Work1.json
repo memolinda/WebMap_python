@@ -1,0 +1,90 @@
+[
+ {
+   "City": "Belgrade",
+   "Country": "Serbia",
+   "Description": "Conference",
+   "Site": "https://xlic.qui.uam.es/?p=1982",
+   "Lat": 44.819774,
+   "Lon": 20.437641
+ },
+ {
+   "City": "Toledo",
+   "Country": "Spain",
+   "Description": "Conference",
+   "Site": "http://www.icpeac2015.com/",
+   "Lat": 39.855884,
+   "Lon": -4.022776
+ },
+ {
+   "City": "Debrecen",
+   "Country": "Hungary",
+   "Description": "Conference",
+   "Site": "https://xlic.qui.uam.es/?p=2140",
+   "Lat": 47.520714,
+   "Lon": 21.627223
+ },
+ {
+   "City": "Le Havre",
+   "Country": "France",
+   "Description": "Conference",
+   "Site": "https://imampc2016.sciencesconf.org/",
+   "Lat": 49.490458,
+   "Lon": 0.102345
+ },
+ {
+   "City": "Frankfurt",
+   "Country": "Germany",
+   "Description": "Conference",
+   "Site": "https://xlic.qui.uam.es/?ai1ec_event=ecamp12",
+   "Lat": 50.127375,
+   "Lon": 8.666776
+ },
+ {
+   "City": "Stockholm",
+   "Country": "Sweden",
+   "Description": "Conference",
+   "Site": "https://xlic.qui.uam.es/?ai1ec_event=2nd-xlic-wg2-meeting-epolm-2",
+   "Lat": 59.361352,
+   "Lon": 18.058814
+ },
+ {
+   "City": "Prague",
+   "Country": "Czech Republic",
+   "Description": "Conference",
+   "Site": "https://xlic.qui.uam.es/?ai1ec_event=4th-xlic-general-meeting",
+   "Lat": 50.089195,
+   "Lon": 14.424425
+ },
+ {
+   "City": "Cairns",
+   "Country": "Australia",
+   "Description": "Conference",
+   "Site": "http://icpeac30.edu.au/",
+   "Lat": -16.914034,
+   "Lon": 145.771876
+ },
+ {
+   "City": "Dinard",
+   "Country": "France",
+   "Description": "Conference",
+   "Site": "https://molec2018.sciencesconf.org/",
+   "Lat": 48.637596,
+   "Lon": -2.053958
+ },
+ {
+   "City": "Aarhus",
+   "Country": "Denmark",
+   "Description": "Scientific Mission",
+   "Site": "https://phys.au.dk/en/",
+   "Lat": 56.160328,
+   "Lon": 10.214933
+ },
+ {
+   "City": "Melbourne",
+   "Country": "Australia",
+   "Description": "Scientific Mission",
+   "Site": "https://chemistry.unimelb.edu.au/#news",
+   "Lat": -37.821667,
+   "Lon": 144.905198
+ }
+]

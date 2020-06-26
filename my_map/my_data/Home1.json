@@ -1,0 +1,16 @@
+[
+ {
+   "City": "Trento",
+   "Country": "Italy",
+   "Description": "Home Town",
+   "Lat": 46.070913,
+   "Lon": 11.126532
+ },
+ {
+   "City": "Stockholm",
+   "Country": "Sweden",
+   "Description": "Where I live",
+   "Lat": 59.361352,
+   "Lon": 18.058814
+ }
+]

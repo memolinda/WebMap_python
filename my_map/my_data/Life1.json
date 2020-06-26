@@ -1,0 +1,56 @@
+[
+ {
+   "City": "Paris",
+   "Country": "France",
+   "Lat": 48.855386,
+   "Lon": 2.294868
+ },
+ {
+   "City": "London",
+   "Country": "UK",
+   "Lat": 51.514084,
+   "Lon": -0.168228
+ },
+ {
+   "City": "Munich",
+   "Country": "Germany",
+   "Lat": 48.12146,
+   "Lon": 11.581661
+ },
+ {
+   "City": "Tenerife",
+   "Country": "Spain",
+   "Lat": 28.419782,
+   "Lon": -16.297321
+ },
+ {
+   "City": "Gothenburg",
+   "Country": "Sweden",
+   "Lat": 57.727161,
+   "Lon": 11.977329
+ },
+ {
+   "City": "Rome",
+   "Country": "Italy",
+   "Lat": 41.892184,
+   "Lon": 12.496172
+ },
+ {
+   "City": "Florence",
+   "Country": "Italy",
+   "Lat": 43.781842,
+   "Lon": 11.254013
+ },
+ {
+   "City": "Amsterdam",
+   "Country": "Netherland",
+   "Lat": 52.378669,
+   "Lon": 4.896064
+ },
+ {
+   "City": "Madrid",
+   "Country": "Spain",
+   "Lat": 40.419132,
+   "Lon": -3.708594
+ }
+]

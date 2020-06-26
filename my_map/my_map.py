@@ -3,9 +3,9 @@ import json
 import pandas as pd
 
 ### Create DataFrame from json files
-df_home = pd.read_json("my_data/Home.json")
-df_life = pd.read_json("my_data/Life.json")
-df_work = pd.read_json("my_data/Work.json")
+df_home = pd.read_json("my_data/Home1.json")
+df_life = pd.read_json("my_data/Life1.json")
+df_work = pd.read_json("my_data/Work1.json")
 
 ### Map centered in Berlin
 map = folium.Map(location=[34.913630, 33.213540],
@@ -29,7 +29,6 @@ html_work = """<div style="Font-family: arial;">
 %s : <br>
 <a href="%s" target="_blank">%s</a></div>
 """
-'<a href="'+ 'give your url here'+'"target="_blank">'+ 'popup text' + '</a>'
 
 ff_home = folium.FeatureGroup(name="Home")
 ff_life = folium.FeatureGroup(name="Life")
